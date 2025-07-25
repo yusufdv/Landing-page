@@ -1,0 +1,132 @@
+*{
+    font-family: 'roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+
+.sec1 {
+    background-color: #1f2937;
+    padding: 10px 20px 40px 20px;  /* top | right | bottom | left */
+
+}
+
+.header{
+    display: flex;
+    justify-content:flex-start;
+    padding: 0px 5px 10px 0px;
+}
+
+.header img {
+    margin-top: 7px;
+    width: 50px;
+    border-radius: 5px;
+}
+
+ul {
+    list-style-type:none;
+    display: flex;
+    justify-content: flex-end;
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+ul li {
+    margin-left: 15px;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    margin: 16px;
+}
+
+.main_text{
+    font-weight: 900;
+    font-size: 48px;
+    color: #f9faf8;
+}
+
+.second_text{
+    font-weight:normal;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.button1{
+    background-color: #3882f6 ;
+    border-radius: 7px;
+    border: none;
+    color: #e5e7eb;
+    width:100px;
+    height:33px;
+    font-size: large;
+    margin: 10px;
+}
+
+.full_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    margin: 20px;
+}
+
+.left_container {
+    width: 45%; /* Adjust this for "half of the full width" minus margins */
+    height: auto; /* Or whatever height you want */
+}
+
+.placeholder_img{
+    flex: 0 0 45%; 
+    background-color: grey;
+}
+
+/*second section*/
+
+.sec2_header {
+    text-align: center;
+    font-weight: 900;
+    font-size: 36px ;
+    color: #1F2937 ;
+    padding: 35px ;
+}
+
+.sec2_containers{
+    
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+
+}
+
+.boxes{
+
+    width: 150px;
+    height: 150px;
+    border: solid #3882f6 3px;
+    border-radius: 8px;
+}
+
+.text {
+    text-align: center;
+    margin-top: 8px;
+
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 200px;
+}
+
+/*3rd section*/
+
+
