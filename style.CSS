@@ -69,6 +69,7 @@ ul li {
     height:33px;
     font-size: large;
     margin: 10px;
+    cursor:pointer;
 }
 
 .full_container {
@@ -89,6 +90,10 @@ ul li {
 }
 
 /*second section*/
+
+.sec2 {
+    margin-bottom: 50px ;
+}
 
 .sec2_header {
     text-align: center;
@@ -129,4 +134,87 @@ ul li {
 
 /*3rd section*/
 
+.sec3 {
+    background-color: #E5E7EB ;
+    color: #1F2937;
+}
 
+.the_comment {
+    padding: 100px ;
+}
+
+.paragraph {
+    text-align: center;
+    font-size: 36px ;
+    font-weight:lighter;
+    font-style: italic;
+}
+
+.author{
+    text-align: right;
+    font-weight: bolder;
+    font-size: 20px ;
+}
+
+/*4th section*/
+
+.sec4{
+    background-color: #3882F6;
+    border-radius: 8px;
+    padding:40px 120px;
+    margin: 100px 120px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+
+    
+}    
+
+.cadre{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex: 1;
+    flex-wrap: wrap;
+    gap: 20px;
+    width: 100%;
+}
+
+.writing{
+    max-width: 600px;
+    flex: 1;
+}
+
+.header_s4 {
+    color: #ffffff;
+}
+
+.button2 {
+    color:#ffffff;
+    background-color: #3882F6;
+    border: solid 2px #ffffff;
+    border-radius: 5px;
+    padding: 8px 20px;
+    font-weight: bold;
+    cursor: pointer;
+
+    display: flex;
+    justify-content:center;
+    align-items: end;
+}
+
+.button2:hover, .button1:hover {
+  background-color: #4477e7;
+}
+
+/*5th section*/
+footer{
+    text-align: center;
+    padding: 20px;
+    color: #E5E7EB;
+    background-color: #1F2937;
+    font-size: 14px;
+    
+}
